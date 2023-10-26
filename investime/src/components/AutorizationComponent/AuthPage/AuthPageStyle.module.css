@@ -1,0 +1,21 @@
+.wrapper {
+    min-height: 56.25rem; /* было rem(900px) */
+    background-size: cover;
+    background-image: url(https://images.unsplash.com/photo-1484242857719-4b9144542727?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1280&q=80);
+  }
+  
+  .form {
+    border-right: 0.0625rem solid light-dark(var(--mantine-color-gray-3), var(--mantine-color-dark-7)); /* было rem(1px) */
+    min-height: 56.25rem; /* было rem(900px) */
+    max-width: 28.125rem; /* было rem(450px) */
+    padding-top: 5rem; /* было rem(80px) */
+  
+    @media (max-width: var(mantine-breakpoint-sm)) {
+      max-width: 100%;
+    }
+  }
+  
+  .title {
+    color: light-dark(var(--mantine-color-black), var(--mantine-color-white));
+    font-family: Greycliff CF, var(--mantine-font-family);
+  }
