@@ -1,0 +1,31 @@
+.footer {
+  
+    height: 3.75rem; /* 60px */
+    border-bottom: 0.0625rem solid light-dark(var(--mantine-color-gray-3), var(--mantine-color-dark-4));
+
+  }
+  
+  .inner {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 1.5rem; /* var(--mantine-spacing-md) */
+    padding-right: 1.5rem;
+    align-items: center;
+    padding-top: 0.5rem; /* было var(--mantine-spacing-xl) = 40px */
+    padding-bottom: 0.5rem; /* было var(--mantine-spacing-xl) = 40px */
+    background-color: var(--mantine-color-green-7);
+    text-decoration: none;
+    margin-top: 1%;;
+    @media (max-width: var(--mantine-breakpoint-xs)) {
+      flex-direction: column;
+      
+    }
+  }
+  
+  .links {
+    @media (max-width: var(--mantine-breakpoint-xs)) {
+      
+      margin-top: 1.875rem; /* было var(--mantine-spacing-md) = 30px */
+    }
+  }
+  

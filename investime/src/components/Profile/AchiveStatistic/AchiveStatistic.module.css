@@ -1,0 +1,35 @@
+.card {
+    background-color: var(--mantine-color-body);
+  }
+  
+  .label {
+    font-family: Greycliff CF, var(--mantine-font-family);
+    font-weight: 700;
+    line-height: 1;
+  }
+  
+  .lead {
+    font-family: Greycliff CF, var(--mantine-font-family);
+    font-weight: 700;
+    font-size: 1.375rem; /* 22px / 16px = 1.375rem */
+    line-height: 1;
+  }
+  
+  .inner {
+    display: flex;
+  
+    @media (max-width: 30rem) { /* $mantine-breakpoint-xs -> 480px / 16px = 30rem */
+      flex-direction: column;
+    }
+  }
+  
+  .ring {
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+  
+    @media (max-width: 30rem) { /* $mantine-breakpoint-xs -> 480px / 16px = 30rem */
+      justify-content: center;
+      margin-top: 1rem; /* var(--mantine-spacing-md) / 16px = 1rem */
+    }
+  }

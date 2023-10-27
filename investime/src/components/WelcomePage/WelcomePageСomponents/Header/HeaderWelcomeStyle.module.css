@@ -1,0 +1,65 @@
+.header {
+    background-color: var(--mantine-color-green-7);
+    height: 3.75rem; /* 60px */
+    padding-left: 1.5rem; /* var(--mantine-spacing-md) */
+    padding-right: 1.5rem; /* var(--mantine-spacing-md) */
+    border-bottom: 0.0625rem solid light-dark(var(--mantine-color-gray-3), var(--mantine-color-dark-4));
+  }
+  
+  .link {
+    display: flex;
+    align-items: center;
+    height: 100%;
+    padding-left: 1.5rem; /* var(--mantine-spacing-md) */
+    padding-right: 1.5rem; /* var(--mantine-spacing-md) */
+    text-decoration: none;
+    color: white;
+    font-weight: 500;
+    font-size: 1rem; /* var(--mantine-font-size-sm) */
+  
+    @media (max-width: var(--mantine-breakpoint-sm)) {
+      height: 2.625rem; /* rem(42px) */
+      width: 100%;
+    }
+  }
+  
+  .link:hover {
+    border-radius: 1.5rem ;
+    color:rgb(213, 213, 213);
+  }
+  .subLink {
+    width: 100%;
+    padding: 0.25rem 1.5rem; /* var(--mantine-spacing-xs), var(--mantine-spacing-md) */
+    border-radius: 1.5rem; /* var(--mantine-radius-md) */
+  }
+  
+  .dropdownFooter {
+    background-color: light-dark(var(--mantine-color-gray-0), var(--mantine-color-dark-7));
+    margin: -1.5rem; /* calc(var(--mantine-spacing-md) * -1) */
+    margin-top: 1rem; /* var(--mantine-spacing-sm) */
+    padding: 1.5rem 3rem; /* var(--mantine-spacing-md), calc(var(--mantine-spacing-md) * 2) */
+    padding-bottom: 2.5rem; /* var(--mantine-spacing-xl) */
+    border-top: 0.0625rem solid light-dark(var(--mantine-color-gray-1), var(--mantine-color-dark-5));
+  }
+
+  .button:hover {
+
+    border-color: black;
+  }
+  
+  .button2:hover {
+    border-color: rgb(255, 255, 255);
+   
+  }
+
+  .button2 {
+ 
+    background-color:rgb(0, 0, 0);
+  }
+
+  .icon {
+    color: white;
+  }
+  .icon:hover{
+    color: rgb(221, 221, 221);
+  }

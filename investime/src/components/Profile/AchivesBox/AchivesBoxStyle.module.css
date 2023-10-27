@@ -1,0 +1,20 @@
+.button {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    transition: background-color 150ms ease, border-color 150ms ease;
+    border-radius: 0.25rem; /* 4px */
+    padding: 0.25rem; /* 4px */
+    border: 0.0625rem solid rgba(179, 179, 179, 0.8); /* light-dark(var(--mantine-color-gray-3), var(--mantine-color-dark-8)) */
+    background-color: rgba(255, 255, 255, 0.2); /* light-dark(var(--mantine-color-white), var(--mantine-color-dark-8)) */
+  
+    &[data-checked] {
+      border-color:  rgb(79, 181, 69); /* var(--mantine-color-blue-filled) */
+      background-color:  rgb(79, 181, 69); /* var(--mantine-color-blue-light) */
+    }
+  }
+  
+  .body {
+    flex: 1;
+    margin-left: 1rem; /* 16px */
+  }
