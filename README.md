@@ -6,6 +6,6 @@
 
 *на сервере есть файлы конфигурации
 
-Использованы Mantine, YandexAPI, React и Express и различные менее весомые библиотеки.
+Использованы Mantine, YandexAPI, React и Express, а также различные менее весомые библиотеки.
 
 Happy hacking!
